@@ -52,7 +52,7 @@ if prompt := st.chat_input("Ask anything..."):
 
         try:
             response_stream = client.models.generate_content_stream(
-                model="gemini-2.5-flash",
+                model="gemini-3.6-flash",
                 contents=gemini_contents,
             )
 
