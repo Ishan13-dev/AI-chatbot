@@ -4,15 +4,15 @@ from google import genai
 from google.genai import types
 
 # Configure Streamlit page
-st.set_page_config(page_title="Gemini AI Chatbot", page_icon="🤖", layout="centered")
-st.title("🤖 Gemini AI Chatbot")
+st.set_page_config(page_title="Alan AI Chatbot", page_icon="🤖", layout="centered")
+st.title("🤖 Alan AI Chatbot")
 
 # Retrieve API key from environment variable or Streamlit secrets
 api_key = os.environ.get("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
 if not api_key:
     st.info("Please provide your Gemini API Key to start chatting.", icon="🔑")
-    api_key = st.text_input("Enter your Gemini API Key:", type="password")
+    api_key = st.text_input("AQ.Ab8RN6KTjz7puSAZVAcCgbPRFM-gDuWSGyljhFrYqdzU1U1zkw", type="password")
     if not api_key:
         st.stop()
 
