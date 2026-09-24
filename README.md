@@ -1,4 +1,4 @@
-# 🤖 Gemini AI Chatbot
+# 🤖 Alan AI Chatbot
 
 A lightweight, responsive AI chatbot built with **Python**, **Streamlit**, and the **Google Gemini API** (`gemini-3.6-flash`). Features real-time streaming responses and multi-turn chat history.
 
@@ -9,7 +9,7 @@ A lightweight, responsive AI chatbot built with **Python**, **Streamlit**, and t
 ## 🌐 Live Demo
 
 You can try out the live version here:  
-👉 **[Launch Gemini AI Chatbot](https://ai-chatbot-mcf3rvwkzwgzwenxrwllwi.streamlit.app/)**
+👉 **[Launch Alan AI Chatbot](https://ai-chatbot-mcf3rvwkzwgzwenxrwllwi.streamlit.app/)**
 
 ---
 
